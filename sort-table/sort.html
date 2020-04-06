@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tableux</title>
+</head>
+<body>
+        <table>
+            <thead>
+                <tr>
+                    <th>nom</th>
+                    <th>prenom</th>
+                    <th>age</th>
+                    <th>proffesion</th>
+                </tr>
+            </thead>
+
+            <tbody id="tabledata"></tbody>
+        </table>
+        <div class="myButton">
+        <button onclick="sortColumn('age')" >Sort By Age</button>
+        <button onclick="sortTable('nom')">Sort By Name</button>            
+        </div>
+
+        <script src="sort.js"></script>
+</body>
+</html>
