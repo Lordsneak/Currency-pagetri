@@ -20,8 +20,17 @@
             <tbody id="tabledata"></tbody>
         </table>
         <div class="myButton">
-        <button onclick="sortColumn('age')" >Sort By Age</button>
-        <button onclick="sortTable('nom')">Sort By Name</button>            
+        <button type="button" onclick="sortColumn('age')" >Sort By Age</button>
+        <button type="button" onclick="sortTable('nom')">Sort By Name</button>            
+        </div>
+        <div class="bt0">
+            <form class="bt1">
+                <input type="text" placeholder="ENTER NOM" id="nom">
+                <input type="text" placeholder="ENTER PRENOM" id="prenom">
+                <input type="text" placeholder="ENTER AGE" id="age">
+                <input type="text" placeholder="ENTER Proffesion" id="proffesion">
+                <button type="button" onclick="add()">add</button>
+            </form>            
         </div>
 
         <script src="sort.js"></script>

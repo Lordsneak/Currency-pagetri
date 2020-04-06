@@ -39,3 +39,31 @@ th {
 	position:relative;
 	top:1px;
 }
+.bt1 input {
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	width: 100px;
+	padding: 10px;
+	float: left;
+	border: 1px black solid;
+	margin: 10px;
+}
+.bt0 {
+	border: #000000 1px solid;
+	height: 60px;
+	width: 640px;
+	margin-left: 300px;
+}
+.bt1 button {
+padding: 10px;
+background: #d9d9d9;
+color: #555;
+float: left;
+text-align: center;
+cursor: pointer;
+transition: 0.3s;
+border-radius: 0;
+margin: 10px;
+
+}

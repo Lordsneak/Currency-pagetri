@@ -63,3 +63,28 @@ function sortTable() {
       }
     }
   }
+
+
+function add() {
+  var all = document.getElementById("tabledata");
+
+  var nomhtml = document.getElementById("nom").value;
+  var prenomhtml = document.getElementById("prenom").value;
+  var agehtml = document.getElementById("age").value;
+  var proffesionhtml = document.getElementById("proffesion").value;
+
+  var tr = document.createElement("tr");
+  var td = tr.appendChild(document.createElement('td'));
+  var td2 = tr.appendChild(document.createElement('td'));
+  var td3 = tr.appendChild(document.createElement('td'));
+  var td4 = tr.appendChild(document.createElement('td'));
+
+
+  td.innerHTML = nomhtml;
+  td2.innerHTML = prenomhtml;
+  td3.innerHTML = agehtml;
+  td4.innerHTML = proffesionhtml;
+  all.appendChild(tr);
+  
+
+}
